@@ -9,8 +9,9 @@ else:
     year = jumin[0] + 1900
 
 month_dic = {
-    01: Jan, 02: Feb, 03: Mar, 04: April, 05: May, 06: June,
-    07: July, 08: Aug, 09: Sep, 10: Oct, 11: Nov, 12: Dec }
+    "01": "Jan", "02": "Feb", "03": "Mar", "04": "April", "05": "May", "06": "June",
+    "07": "July", "08": "Aug", "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+}
 
 if month_num in month_dic:
     month_name = month_dic[month_num]
